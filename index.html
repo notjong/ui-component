@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UI 컴포넌트 사전 · 미리보기와 복사 가능한 소스</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button class="menu-toggle" id="menuToggle">☰ 목록</button>
+<div class="layout">
+  <aside class="side" id="side">
+    <div class="brand">
+      <h1>프론트엔드 UI 컴포넌트 사전</h1>
+      <div class="count">UI 요소 32 + 공통 레이어 6 · 미리보기 + 복사용 소스</div>
+    </div>
+    <nav id="navList"></nav>
+  </aside>
+  <main class="main">
+    <div class="detail" id="detail"></div>
+  </main>
+</div>
+<script src="elements.js"></script>
+<script src="highlight.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
